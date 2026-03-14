@@ -1,0 +1,15 @@
+{
+  "timestamp": 1773414315049,
+  "operation": {
+    "id": "settings:config:package"
+  },
+  "projectId": "create-me-a-cv-website",
+  "files": [
+    {
+      "path": "/mnt/data/create-me-a-cv-website/backend/.env",
+      "type": "text",
+      "size": 333,
+      "dependencies": false
+    }
+  ]
+}

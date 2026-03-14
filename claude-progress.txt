@@ -1,0 +1,25 @@
+# CV Website Progress
+
+## Session: 2026-03-13
+
+### Completed Tasks
+- Removed profile photo/image from the CV website hero section
+- Updated PersonalInfoSection component in UV_CV.tsx
+- Changed layout from flex row (with image) to centered column (text only)
+- Verified all sections still work correctly:
+  - Personal Info (header) - now centered without image
+  - Professional Summary (About Me)
+  - Work Experience (3 positions)
+  - Education (2 degrees)
+  - Skills & Expertise (4 categories)
+  - Footer
+
+### Technical Changes
+- File modified: /app/vitereact/src/components/views/UV_CV.tsx
+- Removed the profile photo div and decorative element
+- Simplified the layout to be fully centered
+
+### Status
+- All 5 features in feature_list.json are marked as completed (passes: true)
+- No console errors
+- App loads and displays correctly

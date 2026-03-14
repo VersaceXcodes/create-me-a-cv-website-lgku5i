@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cv-personal-info-display",
+    "category": "ui",
+    "description": "Display personal information section including full name, professional title, profile photo, contact details (email, phone, location, LinkedIn, GitHub, portfolio links). This is the header/hero section that creates the first impression for visitors.",
+    "steps": [
+      "Navigate to the CV website homepage",
+      "Verify personal name and professional title are prominently displayed",
+      "Verify profile photo is visible and properly sized",
+      "Verify all contact information and social links are displayed and clickable",
+      "Verify layout is visually appealing and professional"
+    ],
+    "priority": 1,
+    "passes": true,
+    "selected": true,
+    "order": 1,
+    "status": "completed",
+    "completedAt": "2026-03-13T15:10:00.000Z"
+  },
+  {
+    "id": "cv-professional-summary-display",
+    "category": "ui",
+    "description": "Display a professional summary or about me section that provides a brief overview of the person's background, expertise, and career objectives. This helps visitors quickly understand the candidate's value proposition.",
+    "steps": [
+      "Navigate to the CV website",
+      "Locate the professional summary section",
+      "Verify summary text is displayed clearly and is readable",
+      "Verify section has appropriate heading/title",
+      "Verify text formatting (paragraphs, line breaks) renders correctly"
+    ],
+    "priority": 1,
+    "passes": true,
+    "selected": true,
+    "order": 2,
+    "status": "completed",
+    "completedAt": "2026-03-13T15:10:00.000Z"
+  },
+  {
+    "id": "cv-work-experience-display",
+    "category": "ui",
+    "description": "Display work experience section showing job history with company names, job titles, employment dates, locations, and detailed descriptions of responsibilities and achievements. This is critical for showcasing professional background.",
+    "steps": [
+      "Navigate to the work experience section",
+      "Verify all job entries are displayed in reverse chronological order",
+      "Verify each entry shows company name, job title, dates, and location",
+      "Verify job descriptions and achievements are displayed",
+      "Verify visual hierarchy makes information easy to scan"
+    ],
+    "priority": 1,
+    "passes": true,
+    "selected": true,
+    "order": 3,
+    "status": "completed",
+    "completedAt": "2026-03-13T15:10:00.000Z"
+  },
+  {
+    "id": "cv-education-display",
+    "category": "ui",
+    "description": "Display education section showing academic qualifications including institution names, degrees/certifications, fields of study, graduation dates, and relevant achievements (GPA, honors, relevant coursework).",
+    "steps": [
+      "Navigate to the education section",
+      "Verify all educational entries are displayed",
+      "Verify each entry shows institution, degree, field of study, and dates",
+      "Verify additional details like honors or GPA are displayed if present",
+      "Verify entries are in reverse chronological order"
+    ],
+    "priority": 1,
+    "passes": true,
+    "selected": true,
+    "order": 4,
+    "status": "completed",
+    "completedAt": "2026-03-13T15:10:00.000Z"
+  },
+  {
+    "id": "cv-skills-display",
+    "category": "ui",
+    "description": "Display skills section showcasing technical and soft skills, potentially organized by category (programming languages, frameworks, tools, soft skills). May include proficiency levels or visual indicators.",
+    "steps": [
+      "Navigate to the skills section",
+      "Verify all skills are displayed and organized logically",
+      "Verify skill categories or groupings are clear",
+      "Verify proficiency levels or indicators are shown if applicable",
+      "Verify skills are easy to scan and visually appealing"
+    ],
+    "priority": 1,
+    "passes": true,
+    "selected": true,
+    "order": 5,
+    "status": "completed",
+    "completedAt": "2026-03-13T15:10:00.000Z"
+  }
+]
