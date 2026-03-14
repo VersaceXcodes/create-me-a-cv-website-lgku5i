@@ -2,7 +2,7 @@
 FROM node:18-slim AS frontend-build
 WORKDIR /app/vitereact
 COPY vitereact/package*.json ./
-RUN npm ci --legacy-peer-deps
+RUN npm install --legacy-peer-deps
 COPY vitereact ./
 # Set production API URL for the launchpulse.ai subdomain
 RUN sed -i 's|VITE_API_BASE_URL=.*|VITE_API_BASE_URL=https://create-me-a-cv-website-lgku5i.launchpulse.ai|g' .env 2>/dev/null || true
@@ -19,7 +19,7 @@ WORKDIR /app
 # Install backend dependencies
 COPY backend/package*.json ./backend/
 WORKDIR /app/backend
-RUN npm ci --production
+RUN npm install --production
 
 # Copy backend source
 COPY backend ./
